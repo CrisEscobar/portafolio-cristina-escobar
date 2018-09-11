@@ -1,5 +1,7 @@
 .topnav {
   overflow: hidden;
+  background-color: black;    
+  color:white;
 }
 
 .topnav a {
@@ -10,14 +12,16 @@
   text-decoration: none;
   font-size: 17px;
   font-family: 'Oswald', sans-serif;
+  background-color: black;    
+  color:white;
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #FFEB3F;
   color: black;
 }
 
 .active {
-  background-color: #FFEB3F;;
+  background-color: #FFEB3F;
 
 }
 
@@ -29,12 +33,16 @@
 #row1  {
     font-family: 'Oswald', sans-serif;
     text-align:center;
-    margin-top:100px;
-    margin-bottom:100px;
+    margin-top:10%;
+    margin-bottom:10%;
 }
 
 .text-name {
   font-size: 80px;
+}
+
+.text-name2 {
+  font-size: 150%;
 }
 
 .subtitle {
@@ -81,6 +89,7 @@
 .intro {
   background-color: white;
   font-size:60%;
+ 
 
 }
 
@@ -101,21 +110,30 @@ margin:0% 10% 10% 10%;
 
 }
 
+#row3-1 {
+  background-image: url("https://crisescobar.files.wordpress.com/2018/09/2526582070252121-e1536625426446.png");
+  
+ 
+}
+
 .img-splash {
   position:absolute;
   width:30%;
-  margin:14.2% 2% 0% 33%;
-  overflow: auto;
+  margin:225px 2% 0% 33%;
+  
 }
 
 #row4 {
-  background-color: #FFEB3F;
+  background-color:black;
+  color:white;
 }
 
 .subtitle2 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
+
+
 
 
 
@@ -141,4 +159,19 @@ margin:0% 10% 10% 10%;
       display: block;
       text-align: left;
     }
+    .intro {
+      font-size:40%;
+    }
+    .intro2 {
+      font-size:60%;
+    }
+    
+    #text-sobremi {
+      margin-top:0%;
+    }
+
+    .intro2 {
+      margin-top:5%;
+    }
+    
   }
